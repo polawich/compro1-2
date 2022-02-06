@@ -1,0 +1,11 @@
+//    printf("%c%79s",numa[0],"");
+//    printf("%c%c%77s",numa[0],numa[1],"");
+//    printf("%c%c%c%75s",numa[0],numa[1],numa[2],"");
+//    printf("%c%c%c%c%73s",numa[0],numa[1],numa[2],numa[3],"");
+//    printf("%c%c%c%c%c%71s",numa[0],numa[1],numa[2],numa[3],numa[4],"");
+
+// printf("%1.1s%79s",numa,"");
+// printf("%3.2s%77s",numa,"");
+// printf("%5.3s%75s",numa,"");
+// printf("%7.4s%73s",numa,"");
+// printf("%9.5s%71s",numa,"");
