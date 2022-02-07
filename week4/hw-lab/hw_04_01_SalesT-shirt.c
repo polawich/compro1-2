@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 
 int main(){
     int price,freecon,percent,ea,ea2,priceall;
@@ -8,7 +9,7 @@ int main(){
     priceall = (price*ea);
     discount1 = (priceall-(priceall*percent)/100);
     //free
-    freecon = (ea/3);
+    freecon = floor(ea/3);
     //printf("%d",free);
     ea2 = (ea-freecon);
     discount2 = (price*ea2);
