@@ -1,34 +1,16 @@
 #include<stdio.h>
 
-int main (){
+int main(){
     int numa;
     scanf("%d",&numa);
-    for(int i = 0; i < numa; i++){
-        for(int j = i+2; j <= numa; j++){
+    for (int i = 1; i <= numa; i++){ //start
+        for (int j = 1;j <= numa - i; j++){ //space
             printf(" ");
         }
-        int sizetrian = (i + 1) * 2 - 1;
-        for(int j = 0; j < sizetrian; j++){
+        for(int k = 1; k <= (2*i)-1; k++){ //star
             printf("*");
         }
         printf("\n");
-        return 0;
     }
-}
-
-// #include <stdio.h>
-
-// int main(void) {
-//     int size;
-//     scanf("%d", &size);
-//     for (int i = 0; i < size; i++) {
-//         for (int j = i+2; j <= size; j++) {
-//             printf(" ");
-//         }
-//         int sizetrian = (i + 1) * 2 - 1;
-//         for (int j = 0; j < sizetrian; j++) {
-//             printf("*");
-//         }
-//         printf("\n");
-//     }
-// }
+    return 0;
+}ิิ
