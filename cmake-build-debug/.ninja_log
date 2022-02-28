@@ -1,0 +1,14 @@
+# ninja log v5
+1	74	1646030594532846373	CMakeFiles/compro1_2.dir/week7/hw+lab/tempCodeRunnerFile.c.o	ef342a3ca22d925e
+1	64	1646030594520846362	CMakeFiles/compro1_2.dir/week7/hw+lab/Lab_07_03.c.o	c7831605da985769
+1	46	1646030594504846347	CMakeFiles/compro1_2.dir/week7/quiz/Quiz_06_01.c.o	e6174c618b4d9342
+1	28	1646030594484846329	CMakeFiles/compro1_2.dir/week7/hw+lab/Lab_07_01.c.o	5d161e5c77883f66
+47	74	1646030594532846373	CMakeFiles/compro1_2.dir/week7/test1.c.o	efb138439e201cb0
+1	56	1646030594508846351	CMakeFiles/compro1_2.dir/week7/hw+lab/lab.c.o	d0434540c1a33e0d
+0	19	1646030789232811251	CMakeFiles/compro1_2.dir/week7/hw+lab/test.c.o	dd0ac54a9717724d
+29	56	1646030594512846355	CMakeFiles/compro1_2.dir/week7/quiz/Quiz_06_02.c.o	fd56c3ec7586a297
+1	60	1646030594516846358	CMakeFiles/compro1_2.dir/week7/hw+lab/Lab_07_02.c.o	1058b735905e62d6
+0	18	1646030854780718637	build.ninja	86f49187a1bb5159
+0	17	1646030854808718590	compro1_2	4d5430ca046118e9
+0	19	1646030911060612824	CMakeFiles/compro1_2.dir/week7/hw+lab/test.c.o	dd0ac54a9717724d
+19	37	1646030911076612791	compro1_2	4d5430ca046118e9

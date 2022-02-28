@@ -1,0 +1,3 @@
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/compro1_2.dir
