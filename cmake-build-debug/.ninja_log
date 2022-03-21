@@ -1,4 +1,5 @@
 # ninja log v5
+<<<<<<< HEAD
 1	74	1646030594532846373	CMakeFiles/compro1_2.dir/week7/hw+lab/tempCodeRunnerFile.c.o	ef342a3ca22d925e
 1	64	1646030594520846362	CMakeFiles/compro1_2.dir/week7/hw+lab/Lab_07_03.c.o	c7831605da985769
 1	46	1646030594504846347	CMakeFiles/compro1_2.dir/week7/quiz/Quiz_06_01.c.o	e6174c618b4d9342
@@ -12,3 +13,10 @@
 0	17	1646030854808718590	compro1_2	4d5430ca046118e9
 0	19	1646030911060612824	CMakeFiles/compro1_2.dir/week7/hw+lab/test.c.o	dd0ac54a9717724d
 19	37	1646030911076612791	compro1_2	4d5430ca046118e9
+=======
+0	602	1645595322756963691	CMakeFiles/test.c.dir/week7/test1.c.o	2d6f823c5b26ec82
+602	748	1645595322903612182	test.c	a939ce8ac9c5d1b
+13	1363	1645605497689477212	CMakeFiles/test.c.dir/week7/hw+lab/Lab_07_01.c.o	cb9934eee4739829
+4	1365	1645605497689469652	CMakeFiles/test.c.dir/week7/test1.c.o	2d6f823c5b26ec82
+3	131	1645605552498334390	CMakeFiles/test.c.dir/week7/hw+lab/Lab_07_02.c.o	66699666e23fc550
+>>>>>>> main

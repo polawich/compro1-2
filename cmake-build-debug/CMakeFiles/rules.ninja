@@ -22,18 +22,30 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling C files.
 
+<<<<<<< HEAD
 rule C_COMPILER__compro1_2_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+=======
+rule C_COMPILER__test.2ec_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+>>>>>>> main
   description = Building C object $out
 
 
 #############################################
 # Rule for linking C executable.
 
+<<<<<<< HEAD
 rule C_EXECUTABLE_LINKER__compro1_2_Debug
   command = $PRE_LINK && /usr/bin/cc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+=======
+rule C_EXECUTABLE_LINKER__test.2ec_Debug
+  command = $PRE_LINK && /usr/bin/gcc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+>>>>>>> main
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +54,11 @@ rule C_EXECUTABLE_LINKER__compro1_2_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = /snap/clion/180/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/polawich/Desktop/compro1-2 -B/home/polawich/Desktop/compro1-2/cmake-build-debug
+=======
+  command = "/Applications/CLion 2.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/polawich/Desktop/compro1-2 -B/Users/polawich/Desktop/compro1-2/cmake-build-debug
+>>>>>>> main
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +67,11 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
+<<<<<<< HEAD
   command = /snap/clion/180/bin/ninja/linux/ninja $FILE_ARG -t clean $TARGETS
+=======
+  command = "/Applications/CLion 2.app/Contents/bin/ninja/mac/ninja" $FILE_ARG -t clean $TARGETS
+>>>>>>> main
   description = Cleaning all built files...
 
 
@@ -59,6 +79,10 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
+<<<<<<< HEAD
   command = /snap/clion/180/bin/ninja/linux/ninja -t targets
+=======
+  command = "/Applications/CLion 2.app/Contents/bin/ninja/mac/ninja" -t targets
+>>>>>>> main
   description = All primary targets available:
 

@@ -1,10 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
-    int numa;
-    scanf("%d",&numa);
-    for (int i = 1; i <= numa; i++){
-        printf("%d ",i);
-    }
+    printf("Hellow jetbraind");
     return 0;
 }
