@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+/snap/clion/180/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/180/bin/ninja/linux/ninja -G Ninja /home/polawich/Desktop/compro1-2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/polawich/Desktop/compro1-2/cmake-build-debug
+=======
 "/Applications/CLion 2.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Applications/CLion 2.app/Contents/bin/ninja/mac/ninja" -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja /Users/polawich/Desktop/compro1-2
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/polawich/Desktop/compro1-2/cmake-build-debug
+>>>>>>> main

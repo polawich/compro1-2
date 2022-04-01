@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/compro1_2.dir
+=======
 /Users/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/polawich/Desktop/compro1-2/cmake-build-debug/CMakeFiles/test.c.dir
+>>>>>>> main
