@@ -23,23 +23,23 @@ int main(){
 
 void playing_decision(struct Weather weath){
     if(strcmp(weath.outlook,"overcast") == 0){
-        printf("yes");
+        printf("yes\n");
     }
     else if(strcmp(weath.outlook,"rain") == 0){
         if (weath.wind == 'F'){
-            printf("yes");
+            printf("yes\n");
         }
         else{
-            printf("no");
+            printf("no\n");
         }
     }
     if(strcmp(weath.outlook,"sunny") == 0){
         if (weath.humidity > 77.5)
         {
-            printf("no");
+            printf("no\n");
         }
         else{
-            printf("yes");
+            printf("yes\n");
         }
     }
 }
